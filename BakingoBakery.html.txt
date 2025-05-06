@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Treats Bakery</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #f8c291;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #f6b93b;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+    footer {
+      background: #f8c291;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+<header>
+  <h1>Sweet Treats Bakery</h1>
+  <p>Freshly baked with love!</p>
+</header>
+
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a family-run bakery specializing in handmade breads, cakes, and pastries using only the finest ingredients.</p>
+</section>
+
+
+<section id="menu">
+  <h2>Our Baked Goods</h2>
+  <div class="products">
+    <div class="product">
+      <h3>Chocolate Cake</h3>
+      <p>Rich, moist, and irresistible.</p>
+    </div>
+    <div class="product">
+      <h3>Fresh Croissant</h3>
+      <p>Flaky layers and buttery goodness.</p>
+    </div>
+    <div class="product">
+      <h3>Sourdough Bread</h3>
+      <p>Fermented and baked to perfection.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: hello@sweettreatsbakery.com</p>
+  <p>Phone: (123) 456-7890</p>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Sweet Treats Bakery. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
